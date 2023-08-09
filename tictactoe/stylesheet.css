@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    background-image: url(gradient-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.newg{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255,255,255,0.15);
+    border: 2px solid rgb(255,255,255,0.25);
+    color: white;
+    margin-left: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.player-info{
+    color: white;
+    font-weight: 600;
+    background-color: rgb(255,255,255,0.15);
+    border: 2px solid rgb(255,255,255,0.25);
+    border-radius: .75rem;
+    width:14rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 1rem;
+    height: 30vh;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    aspect-ratio: 1/1;
+    width: 100%;
+    background-color: rgb(255,255,255,0.15);
+    border-radius: 1.25rem;
+    padding: 2rem;
+    cursor: pointer;
+    
+}
+.box1,.box4,.box2,.box5{
+    border-bottom: 2px solid white;
+    border-right: 2px solid white; 
+}
+.box3, .box6 {
+    border-bottom: 2px solid white;
+}
+
+.box7, .box8 {
+    border-right: 2px solid white;
+}
+.box1,.box4,.box2,.box5,.box3, .box6 ,.box7, .box8,.box9{
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.newg.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+.win {
+    background-color: rgba(0, 255, 0, 0.3);
+}
