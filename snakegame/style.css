@@ -26,3 +26,8 @@
 .food{
     background-color: yellow;
 }
+canvas{
+    background-color: beige;
+    height: 50vh;
+    width: 50vh;
+}

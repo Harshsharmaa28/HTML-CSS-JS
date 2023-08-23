@@ -1,0 +1,28 @@
+*{
+    margin: 0;padding: 0;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(151, 29, 151),rgb(39, 39, 217));
+}
+.container{
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(234, 234, 230);
+}
+.head{
+    display: flex;
+    height: 2rem;
+}
+.txt{
+    display: flex;
+}
+.txt input{
+
+}
