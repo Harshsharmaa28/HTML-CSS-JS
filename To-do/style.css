@@ -14,7 +14,8 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: rgb(234, 234, 230);
+    background: linear-gradient(rgb(140, 139, 139) ,white);
+    border-radius: 10px;
 }
 .head{
     display: flex;
@@ -22,7 +23,26 @@
 }
 .txt{
     display: flex;
+    position: relative;
 }
-.txt input{
+.inp{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.newdiv{
+    display: flex;
+    justify-content:space-between;
+}
+.crs{
+    height: .5rem;
+}
+.strk{
+    text-decoration: line-through;
+}
+button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    
+}
 
-}
